@@ -5,6 +5,7 @@ window.onload = function () {
 
     //如何显示点击按钮后返回顶部的过度动画
     backTopAnimation();
+
 };
 window.onscroll = function () {
     var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
@@ -13,6 +14,7 @@ window.onscroll = function () {
     //如何显示回到顶部按钮
     showBackTop(scrollTop);
 };
+
 
 //点击返回顶部按钮后显示过度动画
 function backTopAnimation() {

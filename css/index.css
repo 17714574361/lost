@@ -70,7 +70,6 @@
 
 .nav {
     width: 200px;
-    padding: 5px 0;
     border-radius: 5px;
 }
 
@@ -89,9 +88,11 @@
     color: #ffffff;
     text-align: center;
     font-size: 14px;
+    display: inline-block;
+    line-height: 21px;
 }
 
-.nav .nav-list .first-nav-item {
+.nav .nav-list .index-nav-item {
     background: #594888;
 }
 
@@ -226,6 +227,7 @@
     padding: 8px 10px;
     background: #635096;
     border-radius: 5px;
+    margin: 0 10px;
 }
 
 .main-content-bot .main-content-bot-contact a:hover {

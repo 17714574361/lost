@@ -1,0 +1,24 @@
+.main-publish-nav{
+    background: #493a75;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.main-publish-nav a{
+    display: inline-block;
+    padding: 10px 30px;
+    color: #eee;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.main-publish-nav-mylost{
+    background: #594888;
+}
+.main-publish-nav a:hover{
+    background: #594888;
+}
+.nav .nav-list .index-nav-item{
+    background: #493a75;
+}
+.mypublish-nav-item{
+    background: #594888;
+}

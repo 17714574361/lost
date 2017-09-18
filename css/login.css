@@ -1,0 +1,47 @@
+.login-wrap {
+    width: 100%;
+    margin: 250px;
+}
+
+.login-box {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.login-box h3 {
+    font-size: 30px;
+    color: #eee;
+}
+.login-left{
+    width: 600px;
+}
+.login-right{
+    width: 300px;
+}
+
+.login-group {
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    margin: 20px 0;
+    width: 320px;
+}
+
+.login-group input {
+    width: 300px;
+    height: 30px;
+    padding: 0 10px;
+    color: #eee;
+    font-size: 16px;
+}
+
+.sign-in {
+    display: inline-block;
+    width: 300px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    background: #594888;
+    text-align: center;
+    border-radius: 15px;
+    color: #eee;
+}
