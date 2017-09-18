@@ -1,21 +1,29 @@
 .login-wrap {
     width: 100%;
-    margin: 250px;
 }
 
 .login-box {
     width: 1000px;
-    margin: 0 auto;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.login-group-box {
+    display: inline-block;
+    width: 320px;
 }
 
 .login-box h3 {
     font-size: 30px;
     color: #eee;
+    margin-bottom: 20px;
 }
-.login-left{
+
+.login-left {
     width: 600px;
 }
-.login-right{
+
+.login-right {
     width: 300px;
 }
 
@@ -23,15 +31,31 @@
     border: 1px solid #cccccc;
     border-radius: 15px;
     margin: 20px 0;
-    width: 320px;
+    width: 330px;
+}
+
+.login-group span {
+    color: #eee;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .login-group input {
-    width: 300px;
+    width: 260px;
     height: 30px;
     padding: 0 10px;
     color: #eee;
     font-size: 16px;
+}
+
+.account-del {
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.show-paw {
+    cursor: pointer;
+    visibility: hidden;
 }
 
 .sign-in {
@@ -45,3 +69,33 @@
     border-radius: 15px;
     color: #eee;
 }
+
+.login-rempaw {
+    text-align: left;
+}
+
+.login-rempaw span {
+    margin-left: 5px;
+    color: #493a75;
+    font-size: 14px;
+}
+
+.login-group-bot {
+    margin: 10px 0;
+    width: 320px;
+    font-size: 14px;
+}
+
+.login-group-bot a {
+    color: #594888;
+}
+
+.login-group-reg {
+    margin-top: 20px;
+    color: #eee;
+}
+
+.login-group-reg a {
+    color: #493a75;
+}
+

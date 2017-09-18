@@ -47,6 +47,20 @@ i{
     visibility: hidden;
     overflow: hidden;
 }
+:-moz-placeholder {
+    color: #eeeeee;
+}
 
+:-ms-input-placeholder {
+    color: #eeeeee;
+}
+
+::-webkit-input-placeholder {
+    color: #eeeeee;
+}
+
+.sign-in:hover {
+    background: #7060a9;
+}
 
 
