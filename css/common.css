@@ -5,6 +5,7 @@ html, body, a, ul, li, p, h3, input {
 body{
     background: url("../img/bg.jpg") no-repeat;
     background-size: cover;
+    font-family: "Adobe 宋体 Std L";
 }
 a {
     text-decoration: none;
